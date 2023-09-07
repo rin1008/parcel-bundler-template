@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  color: orange;
+}
+.container h1 + img {
+  width: 300px;
+}
+/*# sourceMappingURL=main.css.map */

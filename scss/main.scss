@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+$bgColor : black;
+
+@mixin center {
+  display: flex; justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: $bgColor;
+}
+.container {
+  @include center;
+  h1 {
+    color: orange;
+    &+img {
+      width: 300px;
+    }
+  }
+}
